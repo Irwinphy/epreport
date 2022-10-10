@@ -163,7 +163,7 @@
 \WarningFilter{latexfont}{Font shape}
 %%%%% GEOMETRY, PAGE SETUP, SPACING, PARAGRAPHING %%%%%
 \iftoggle{multicol}{\RequirePackage{multicol}}{\relax}
-\RequirePackage[margin=\iftoggle{multicol}{1.5cm}{2.5cm},a4paper]{geometry}
+\RequirePackage[margin=\iftoggle{multicol}{1.5cm}{2cm},a4paper]{geometry}
 \RequirePackage{relsize}
 \RequirePackage{titlesec}
 \RequirePackage{appendix}
@@ -207,7 +207,7 @@
 	\setmintedinline{breaklines}
 	\RequirePackage{csquotes}}{}
 \RequirePackage[
-	width=0.6\textwidth,
+	width=0.95\textwidth,
 	labelfont={small,bf},
 	font={small}]{caption}
 \RequirePackage{subcaption}
